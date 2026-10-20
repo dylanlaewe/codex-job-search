@@ -25,9 +25,9 @@ For each role:
 3. Select or tailor the closest evidence-backed resume. Use neutral or target-specific names for every submitted document; no filename may name a different employer.
 4. Draft a cover letter only when required or strategically useful.
 5. Prepare role-specific answers from verified evidence.
-6. Complete and audit every visible required field. Explicitly verify parsed email and phone, current location, education and employment dates, sponsorship, GPA when asked, self-identification selections supplied by the candidate, free-text answers, and uploaded filenames.
+6. Complete and audit every visible required field. Explicitly verify parsed email and phone, current location, education and employment dates, sponsorship, GPA when asked, self-identification selections supplied by the candidate, free-text answers, and uploaded filenames. On controlled forms such as Ashby, a rendered contact field can be correct while DOM or accessibility inspection reports an empty value; use a visual check before retyping so contact data is not duplicated.
 7. Follow product confirmation rules immediately before consequential submission.
-8. Verify receipt, update the tracker, close the tab, and repeat.
+8. Verify receipt, update the tracker, close the tab, and repeat. At the end of a daily batch, count applications directly from the tracker by date rather than relying on the running conversational total.
 
 Parallelize independent sourcing and document preparation only when the user authorizes delegation. Keep live browser submission serialized. The tracker has one writer; other agents may propose row data but cannot edit it concurrently. Refresh duplicates and employer concentration immediately before the final tracker write. Ask the user only for passwords, OTPs, CAPTCHAs, genuinely unknown facts, and confirmations required by the product.
 
