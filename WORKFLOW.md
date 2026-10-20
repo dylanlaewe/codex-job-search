@@ -7,7 +7,11 @@ Candidate evidence + preferences + resumes
        Official job verification
                   |
                   v
-     Duplicate check + fit scoring
+  Full-tracker duplicate/cooldown gate
+     (company/title, req ID, URL)
+                  |
+                  v
+            Fit scoring
                   |
         +---------+---------+
         |         |         |

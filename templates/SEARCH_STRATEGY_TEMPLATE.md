@@ -32,7 +32,7 @@ Define a 100-point score using role alignment, evidence-backed skills, seniority
 
 ## Employer concentration
 
-- Maximum active applications per employer:
+- Default employer cooldown (recommended: one application per employer per 30 days):
 - Rolling time window:
 - Paused employers:
 

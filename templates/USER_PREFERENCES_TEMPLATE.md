@@ -10,7 +10,7 @@
 - Compensation target:
 - Notice period:
 - Travel tolerance:
-- Maximum active applications per employer:
+- Default employer cooldown (recommended: one application per employer per 30 days):
 - Paused employers:
 - Daily or weekly application target:
 - Cover-letter preference:

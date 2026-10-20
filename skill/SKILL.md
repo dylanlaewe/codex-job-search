@@ -20,8 +20,8 @@ At the start of a session, read the candidate evidence, stable answer bank, pref
 
 For each role:
 
-1. Verify the employer-controlled posting is open and not already tracked.
-2. Score realistic fit and enforce the employer cap.
+1. Before opening the application, verify the employer-controlled posting is open and run a full-tracker duplicate gate using normalized company and title, requisition ID, and canonical URL.
+2. Score realistic fit and enforce a one-application-per-employer 30-day cooldown unless the user explicitly approves a named exception.
 3. Select or tailor the closest evidence-backed resume. Use neutral or target-specific names for every submitted document; no filename may name a different employer.
 4. Draft a cover letter only when required or strategically useful.
 5. Prepare role-specific answers from verified evidence.
