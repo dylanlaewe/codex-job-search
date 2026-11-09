@@ -8,8 +8,8 @@ In one working session, the system helped me reach a 30-application daily goal a
 
 The most valuable result was the failure analysis. We caught incorrect resume filenames, missed form fields, duplicate input, employer over-concentration, and fragile account-based ATS sessions. Each recurring issue became a permanent rule in the workflow instead of disappearing into chat history.
 
-The next goal is to measure every stage and drive simple applications toward a one-minute fast lane while keeping role fit, truthful evidence, and human approval as hard constraints.
+The next iteration adds a measured post-application outreach phase. Once the tracker verifies the daily target, the system researches one relevant person per company, drafts a short evidence-backed note, records every send and follow-up, and measures replies, conversations, and interviews. LinkedIn activity remains manual, and private contact data never enters the public repository.
 
-I am packaging the process as a reusable starter kit: what to upload, how to build the fact bank, how to choose resume variants, where parallel agents help, and where a person still needs to remain in control.
+I am packaging the process as a reusable starter kit: what to upload, how to build the fact bank, how to choose resume variants, how to track post-application outreach, where parallel agents help, and where a person still needs to remain in control.
 
 If you have built something similar—or have thoughts on how to evaluate quality beyond raw application count—I would love to compare notes.

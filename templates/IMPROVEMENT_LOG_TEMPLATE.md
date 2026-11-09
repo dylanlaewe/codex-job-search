@@ -22,3 +22,7 @@
 - form error rate;
 - human intervention rate;
 - response and interview conversion by role family and resume variant.
+- outreach contact coverage and verified-work-email rate;
+- outreach reply and conversation rate by contact type and message pattern;
+- outreach-to-interview conversion;
+- bounce, opt-out, and negative-response rate.

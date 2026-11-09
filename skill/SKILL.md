@@ -1,6 +1,6 @@
 ---
 name: job-search-operator
-description: Run or resume an evidence-grounded job-search pipeline that sources roles, selects or tailors ATS resumes, drafts cover letters, completes applications, and maintains a tracker.
+description: Run or resume an evidence-grounded job-search pipeline that sources roles, completes applications, maintains a tracker, and conducts personalized post-application outreach.
 ---
 
 # Job Search Operator
@@ -14,6 +14,7 @@ Use the private system at `<JOB_SEARCH_ROOT>` with these canonical files:
 - `profile/COVER_LETTER_VOICE_GUIDE.md`
 - `strategy/SEARCH_STRATEGY.md`
 - `tracker/Job_Application_Tracker.xlsx` or the same schema imported from CSV
+- `docs/OUTREACH_PLAYBOOK.md`
 - `docs/IMPROVEMENT_LOG.md`
 
 At the start of a session, read the candidate evidence, stable answer bank, preferences, resume index, search strategy, and tracker. Never infer unsupported facts.
@@ -31,4 +32,14 @@ For each role:
 
 Parallelize independent sourcing and document preparation only when the user authorizes delegation. Keep live browser submission serialized. The tracker has one writer; other agents may propose row data but cannot edit it concurrently. Refresh duplicates and employer concentration immediately before the final tracker write. Ask the user only for passwords, OTPs, CAPTCHAs, genuinely unknown facts, and confirmations required by the product.
 
-After a material improvement, update the process log and operating documentation. Keep private profile and tracker data out of public artifacts.
+After the requested daily target is verified directly in the tracker, run the post-application outreach phase when requested:
+
+1. Build the outreach queue from exact Applied rows for the current local date.
+2. Research up to two relevant people per company, prioritizing the hiring manager or team lead, then a function-aligned recruiter, then a related employee or alum.
+3. Select one initial contact per company and prefer a verified work address. Keep LinkedIn research and messaging manual; do not scrape or automate LinkedIn.
+4. Draft a concise note that names the applied role, explains why the person is relevant, connects one verified experience point, and makes a small informational ask. Do not attach a resume or ask a stranger directly for a referral in the first message.
+5. Record the contact, source, address verification, subject, and complete draft in the private Outreach table linked to the Application ID.
+6. Audit the batch, obtain the product-required action-time confirmation immediately before sending, and record only visibly sent messages as Sent.
+7. Follow up once after five business days if there is no reply, then close the sequence. Stop immediately after a decline, opt-out, or request not to contact.
+
+After a material improvement, update the process log and operating documentation. Measure outreach reply, conversation, and interview conversion rather than send volume alone. Keep private profile, tracker, contact, and message data out of public artifacts.

@@ -35,7 +35,27 @@ Candidate evidence + preferences + resumes
        Update tracker and close tab
                   |
                   v
+     Daily application target met?
+             |           |
+            no          yes
+             |           |
+             |           v
+             |   Research one relevant contact
+             |           |
+             |           v
+             |   Draft and audit outreach note
+             |           |
+             |           v
+             |   Confirm, send, and log result
+             |           |
+             |           v
+             |   One follow-up after five
+             |   business days if no reply
+             |           |
+             +-----------+
+                  |
+                  v
        Record reusable improvements
 ```
 
-Preparation may run in parallel when authorized. Browser submission remains serialized to prevent conflicting form state and unclear submission status.
+Preparation may run in parallel when authorized. Browser submission and tracker writes remain serialized to prevent conflicting state. Outreach uses one initial contact per company, a verified business address where possible, manual-only LinkedIn research, and a private outreach log linked to the exact Application ID.

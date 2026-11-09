@@ -15,6 +15,10 @@ Document the private directory layout, required uploads, profile interview, resu
 
 Document the exact sequence from role verification through fit scoring, document selection, form completion, final audit, submission verification, tracker write, and tab closure.
 
+## Post-application outreach
+
+Document the tracker-based trigger, contact-selection order, permitted research sources, work-email verification standard, initial-message rules, action-time send confirmation, follow-up timing, stopping conditions, and required tracker fields. Keep LinkedIn activity manual and avoid contacting multiple employees at one company in parallel.
+
 ## Quality controls
 
 Record the rules for grounded claims, employer concentration, duplicate detection, filename safety, form auditing, confirmations, and one-writer tracker concurrency.
@@ -25,4 +29,4 @@ Document how to recover from login gates, OTPs, CAPTCHAs, expired sessions, uplo
 
 ## Continuous improvement
 
-For each material workflow change, update this playbook and `IMPROVEMENT_LOG.md`, increment the version, and record how the change was validated.
+For each material workflow change, update this playbook and `IMPROVEMENT_LOG.md`, increment the version, and record how the change was validated. Review application conversion and outreach conversion separately.

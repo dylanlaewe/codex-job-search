@@ -1,6 +1,6 @@
 # Human-in-the-Loop Job Search Starter Kit
 
-This share-safe kit shows how to configure Codex as a repeatable job-search operator. It contains blank templates only. It does not include resumes, contact information, demographic answers, job applications, passwords, or tracker data.
+This share-safe kit shows how to configure Codex as a repeatable job-search and post-application outreach operator. It contains privacy-safe guidance and blank templates. It does not include resumes, contact information, demographic answers, job applications, passwords, or tracker data.
 
 ## What to prepare
 
@@ -19,7 +19,7 @@ Upload or provide:
 1. Create a private job-search root outside this `public/` directory using `PRIVATE_ROOT_LAYOUT.md`.
 2. Copy `templates/PROFILE_INTAKE_TEMPLATE.md` into the private root as `profile/CANDIDATE_FACT_BANK.md`, then complete the private copy.
 3. Copy `templates/APPLICATION_ANSWER_BANK_TEMPLATE.md` into the private root as `profile/FAST_APPLICATION_ANSWER_BANK.md`, then complete the private copy.
-4. Copy the preferences, search-strategy, resume-index, cover-letter-voice, tracker-schema, playbook, and improvement-log templates into the private filenames listed in `PRIVATE_ROOT_LAYOUT.md`.
+4. Copy the preferences, search-strategy, resume-index, cover-letter-voice, application-tracker schema, outreach schema, playbook, and improvement-log templates into the private filenames listed in `PRIVATE_ROOT_LAYOUT.md`.
 5. Install or adapt `skill/SKILL.md` and replace `<JOB_SEARCH_ROOT>` with the private system path.
 
 Never enter personal data into the template files inside `public/`. Treat them as clean masters that can be copied again.
@@ -31,6 +31,8 @@ Use the prompt in `templates/MASTER_PROMPT.md`. Start with one application, audi
 ## Operating principle
 
 Parallelize research and document preparation. Keep live form completion and tracker writes one application at a time. Require evidence for every claim, audit all required questions and submitted filenames, and let the user handle passwords, OTPs, CAPTCHAs, genuinely unknown facts, and any required final confirmation.
+
+After the application target is verified in the private tracker, use `OUTREACH.md` to research one relevant person per company, draft a concise evidence-backed note, obtain the required confirmation immediately before sending, and record every contact, send, follow-up, and response. Keep LinkedIn research manual and use verified business contact information where possible.
 
 ## Privacy
 
