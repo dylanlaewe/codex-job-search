@@ -6,6 +6,8 @@ Use outreach as a measured second phase after a verified application batch. It s
 
 Set a clear daily application target in the private system. Start outreach only after the tracker verifies that target using exact Application IDs, dates, and `Applied` statuses. Do not infer completion from browser history, folders, or conversational counts.
 
+If the user explicitly requests outreach for a partial day, filter the private tracker by the exact `Date Applied` and `Applied` status, report the actual application count, and prepare only those rows. Never pad the batch to the nominal daily target.
+
 For historical applications, run a separate pilot ordered by recency, fit, and priority. Do not contact hundreds of employers at once.
 
 ## Choose one person per company
@@ -76,6 +78,8 @@ Best,
 ## Draft, confirm, send, and track
 
 Before sending, create one private Outreach row per contact and link it to the exact Application ID. Record the profile source, work email, verification method, reason for selection, subject, and complete draft.
+
+Use `Draft ready` only when the work email is verified and the note has passed review. Keep invalid, unverified, unavailable, or still-enriching addresses in `Researching` so they cannot enter the send queue accidentally.
 
 Audit names, role, company, claims, links, and destination address. Prepare the entire batch, then obtain any required action-time confirmation immediately before sending. Record a message as Sent only after the interface visibly confirms the send.
 
